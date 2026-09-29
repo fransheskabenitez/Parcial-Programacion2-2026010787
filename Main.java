@@ -5,7 +5,7 @@ public class Main {
         Vendedor vendedor = new Vendedor(
                 "Fransheska Benitez",
                 1000.0,
-                new ComisionEstandar()
+                new ComisionEstandar() // Comisión estándar
         );
 
         vendedor.mostrarDetalle();
