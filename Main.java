@@ -5,7 +5,7 @@ public class Main {
         Vendedor vendedor = new Vendedor(
                 "Fransheska",
                 1000.0,
-                new ComisionEstandar()
+                new ComisionPersonalizada()
         );
 
         vendedor.mostrarDetalle();
